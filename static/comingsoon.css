@@ -1,0 +1,45 @@
+.container
+{
+    margin-top: 130px;
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10vh;
+    padding: 1vh;
+}
+img
+{
+    height: 40vh;
+    width: 40vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+h1
+{
+    font-size: 2.5rem;
+    text-align: center;
+}
+p
+{
+    font-size: 1.5rem;
+    text-align: center;
+}
+input
+{
+ height: 8vh;
+ width: 100%;
+ border-radius: 10px;
+ text-align: center;
+ font-size: 1.5rem;
+ margin-top: 1vh;
+}
+form
+{
+    height: auto;
+    width: 100%;
+}

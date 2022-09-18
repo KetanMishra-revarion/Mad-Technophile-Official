@@ -1,0 +1,87 @@
+body
+{
+    text-align: center;
+}
+
+.container
+{
+    margin-top: 2vh;
+    height: 60vh;
+    width: 95%;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background: white;
+    margin-bottom: 5vh;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+h2
+{
+    margin-top: 130px;
+    font-size: 3rem;
+}
+h5
+{
+    font-size: 1.5rem;
+}
+form
+{
+    height: 100%;
+    width: 100%;
+}
+input
+{
+    font-size: 1.5rem;
+}
+#firstname
+{
+    margin-top: 5vh;
+    height: 5vh;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+}
+#lastname
+{
+    margin-top: 5vh;
+    height: 5vh;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+}
+#email
+{
+    margin-top: 5vh;
+    height: 5vh;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+}
+#phno
+{
+    margin-top: 5vh;
+    height: 5vh;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+}
+#message
+{
+    margin-top: 5vh;
+    border-radius: 10px;
+    height: 20vh;
+    width: 90%;
+    text-align: center;
+}
+#Submit
+{
+    margin-top: 5vh;
+    border-radius: 10px;
+    height: 5vh;
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border: solid grey;
+}

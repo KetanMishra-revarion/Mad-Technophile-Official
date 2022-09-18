@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block addcss %}
+  <link rel="stylesheet" href="/static/contact.css">
+  <meta name="Contact Mad Technophile" content="reach us out for questions or remarks? Just write us a suggestion">
+{% endblock addcss %}
+{% block title %}
+  Mad Techophiles | Contact Us
+{% endblock title %}
+{% block body %}
+<h2>Contact Us</h2>
+<h5>Any questions or remarks? Just write us a suggestion</h5>
+<div class="container">
+    <form action="" method="POST">
+      {% csrf_token %}
+        <input type="text" name="firstname" id="firstname" placeholder="First Name">
+        <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+        <input type="email" name="email" id="email" placeholder="E-Mail">
+        <input type="number" name="phno" id="phno" placeholder="Phone Number">
+        <input type="text" name="message" id="message" placeholder="Write your message....">
+        <input type="submit" name="Submit" id="Submit">
+    </form>
+</div>
+{% endblock body %}
+{% block scripts %}
+  
+{% endblock scripts %}
